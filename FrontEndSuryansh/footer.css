@@ -1,0 +1,344 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.footer_links{
+  margin: 0px;
+  padding:0px; 
+position: absolute;
+width: 1208px;
+height: 219px;
+top: 88px;
+left: 412px;
+gap: 0px;
+box-sizing: border-box;
+text-align: left;
+
+}
+
+.rows p {
+  height: 39px;
+  font-family: Poppins;
+font-size: 13px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0.06em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgb(0, 0, 0);
+}
+.rows p a{
+  color: rgba(45, 58, 76, 1);
+ text-decoration: none;
+}
+
+.rows li a{
+  color: rgba(102, 115, 132, 1);
+text-decoration: none;
+
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+.rows li{
+  font-family: Poppins;
+font-size: 13px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0.06em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+;
+position: relative;
+padding:0px;
+margin: 0px;
+height: 29px;
+width: auto;
+left: 0;
+}
+.rows{
+  padding: 0;
+  margin: 0;
+}
+
+
+.box1{
+position: absolute;
+width: 161px;
+height: 218px;
+top: 0;
+left: 0;
+gap: 0px;
+opacity: 0px;
+
+
+}
+
+.box2{
+  position: absolute;
+  width: 161px;
+height: 218px;
+top: 0px;
+left: 244px;
+gap: 0px;
+
+
+}.box3{
+  position: absolute;
+  width: 161px;
+height: 218px;
+top: 0px;
+left: 498px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.box4{
+  position: absolute;
+  width: 161px;
+height: 218px;
+top: 0px;
+left: 778px;
+gap: 0px;
+opacity: 0px;
+
+}.box5{
+  position: absolute;
+  width: 161px;
+height: 218px;
+top: 0px;
+left: 1027px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+
+.footer_hori{
+  position: absolute;
+  width: 1225px;
+height: 329px;
+top: 416px;
+left: 395px;
+gap: 0px;
+opacity: 0px;
+
+}
+.icons{
+  position: absolute;
+  width: 195px;
+height: 23px;
+top: 0px;
+left: 0px;
+}
+.icons i{
+  height: 23px;
+  width: 25px;
+}
+
+.companey_details{
+  position: absolute;
+  width: 293px;
+height: 257px;
+top: 57px;
+left: 0px;
+}
+.blustock_logo img{
+  position: absolute;
+  width: 46px;
+height: 45px;
+top:0px;
+left: 0px;
+gap: 0px;
+opacity: 0px;
+
+}
+.blustock_logo p{
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+  width: 179px;
+height: 37px;
+top: 8px;
+left: 46px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 24px;
+font-weight: 800;
+line-height: 28.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #2D3A4C;
+}
+
+.startupindia_logo img{
+  position: absolute;
+  width: 253px;
+  height: 63px;
+  top: 209px;
+  left: 0px;
+  gap: 0px;
+  opacity: 0px;
+  
+}
+
+.about1{
+  position: absolute;
+  width: 279px;
+height: 110px;
+top: 66px;
+left: 14px;
+gap: 0px;
+opacity: 0px;
+
+}
+#about1text{
+  padding: 0px;
+margin: 0;
+font-family: Poppins;
+font-size: 13px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:#667384;
+}
+#about1text2{
+  position: absolute;
+  top: 75px;
+  padding:0px;
+  margin:0px;
+  font-family: Poppins;
+font-size: 13px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #667384;
+}
+
+.foot_disc{
+  position: absolute;
+  width: 852px;
+height: 327px;
+top: 2px;
+left: 373px;
+gap: 0px;
+opacity: 0px;
+
+}
+ #p1 {
+  width: 852px;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+color: #667384;
+  
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 0;
+  margin: 0;
+  height: 56px;
+
+}
+
+#p2{
+  position: absolute;
+  width: 852px;
+  height: 56px;
+  top: 76px;
+  left:0px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+font-size: 13px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #667384;
+
+}
+
+#p3{
+  bottom: 0px;
+position: absolute;
+  width: 852px;
+height: 166px;
+left: 0px;
+font-family: Poppins;
+font-size: 13px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #667384;
+
+
+}
+
+.hr1{
+  position: absolute;
+  color: #667384;
+  width: 1226px;
+height: 0px;
+top: 757px;
+left: 400px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+}
+
+.lower_text2{
+position: absolute;
+  width: 230px;
+height: 25px;
+top: 770px;
+left: 1358px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 13px;
+font-weight: 500;
+line-height: 25px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #667384;
+}
+
+.lower_text1{
+  position: absolute;
+  width: 357px;
+height: 25px;
+top: 770px;
+left: 399px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 13px;
+font-weight: 500;
+line-height: 25px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #667384;
+}
