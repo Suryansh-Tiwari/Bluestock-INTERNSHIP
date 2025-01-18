@@ -1,0 +1,411 @@
+CSS of FAQ Section of the Component #!
+
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    background-color: #F6F5F5;
+
+}
+
+.faq-section {
+    position: relative;
+    width: 1784px;
+    height: 2571px;
+    top: 2441px;
+    left: 63px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+
+}
+
+ .text1  {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 581px;
+    height: 60px;
+    top: 0px;
+    left: 0px;
+
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 60px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+}
+
+ .text2  {
+    position: absolute;
+    width: 887px;
+    height: 36px;
+    top: 60px;
+    left: 0px;
+    margin-top: 0px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+
+}
+
+
+.faq-item2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 1774px;
+    height: 371px;
+    top: 207px;
+    left: 8px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    background: #FFFFFF;
+    backdrop-filter: blur(18.5px)
+}
+
+
+
+.q1 {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+    width: 901px;
+    height: 54px;
+    top: 45px;
+    left: 140px;
+    gap: 0px;
+   font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;        
+}
+
+.a1
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+width: 1150px;
+height: 144px;
+top: 85px;
+left: 131px;
+gap: 0px;
+font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: black;
+}
+
+.faq-item3{
+display: flex;
+flex-direction: column;
+position: absolute;
+width: 1774px;
+height: 181px;
+top: 614px;
+left: 0px;
+gap: 0px;
+border-radius: 10px 0px 0px 0px;
+opacity: 0px;
+background-color: #FFFFFF;
+
+}
+
+.q2{
+display: flex;
+flex-direction: column;
+position:absolute;
+width: 901px;
+height: 54px;
+top: 45px;
+left: 140px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 30px;
+font-weight: 600;
+line-height: 45px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+.faq-item4{
+display: flex;
+flex-direction: column;
+position: absolute;
+width: 1774px;
+height: 181px;
+top: 836px;
+left: 0px;
+gap: 0px;
+border-radius: 10px 0px 0px 0px;
+opacity: 0px;
+background-color: #FFFFFF;
+}
+
+.q3{
+position: absolute;
+width: 901px;
+height: 54px;
+top: 45px;
+left: 140px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 30px;
+font-weight: 600;
+line-height: 45px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+.faq-item5{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 1774px;
+    height: 181px;
+    top: 1058px;
+    left: 0px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    background-color: #FFFFFF;
+}
+
+.q4{
+position: absolute;
+width: 901px;
+height: 54px;
+top: 45px;
+left: 140px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 30px;
+font-weight: 600;
+line-height: 45px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: black;
+}
+
+.faq-item6{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 1774px;
+height: 181px;
+top: 1280px;
+gap: 0px;
+border-radius: 10px 0px 0px 0px;
+background-color: #FFFFFF;
+
+
+}
+.q5{
+    position: absolute;
+    width: 901px;
+    height: 54px;
+    top: 45px;
+    left: 140px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;        
+}
+.faq-item7{
+    
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 1774px;
+    height: 181px;
+    top: 1502px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    background-color: #FFFFFF;
+    }
+
+    .q6{
+        position: absolute;
+        width: 901px;
+        height: 54px;
+        top: 45px;
+        left: 140px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 45px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: black;        
+    }
+
+    .faq-item8{
+    
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 1774px;
+        height: 181px;
+        top: 1724px;
+        gap: 0px;
+        border-radius: 10px 0px 0px 0px;
+        background-color: #FFFFFF;
+        }
+    
+        .q7{
+            position: absolute;
+            width: 901px;
+            height: 54px;
+            top: 45px;
+            left: 140px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Poppins;
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 45px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: black;        
+        }
+
+        .faq-item9{
+    
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            width: 1774px;
+            height: 181px;
+            top: 1946px;
+            gap: 0px;
+            border-radius: 10px 0px 0px 0px;
+            background-color: #FFFFFF;
+            }
+        
+            .q8{
+                position: absolute;
+                width: 901px;
+                height: 54px;
+                top: 45px;
+                left: 140px;
+                gap: 0px;
+                opacity: 0px;
+                font-family: Poppins;
+                font-size: 30px;
+                font-weight: 600;
+                line-height: 45px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: black;        
+            }
+
+            
+            .faq-item10{
+    
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                width: 1774px;
+                height: 181px;
+                top: 2168px;
+                gap: 0px;
+                border-radius: 10px 0px 0px 0px;
+                background-color: #FFFFFF;
+                }
+            
+                .q9{
+                    position: absolute;
+                    width: 901px;
+                    height: 54px;
+                    top: 45px;
+                    left: 140px;
+                    gap: 0px;
+                    opacity: 0px;
+                    font-family: Poppins;
+                    font-size: 30px;
+                    font-weight: 600;
+                    line-height: 45px;
+                    text-align: left;
+                    text-underline-position: from-font;
+                    text-decoration-skip-ink: none;
+                    color: black;        
+                }
+        
+
+                .faq-item11{
+    
+                    position: absolute;
+                    display: flex;
+                    flex-direction: column;
+                    width: 1774px;
+                    height: 181px;
+                    top: 2390px;
+                    gap: 0px;
+                    border-radius: 10px 0px 0px 0px;
+                    background-color: #FFFFFF;
+                    }
+                
+                    .q10{
+                        position: absolute;
+                        width: 901px;
+                        height: 54px;
+                        top: 45px;
+                        left: 140px;
+                        gap: 0px;
+                        opacity: 0px;
+                        font-family: Poppins;
+                        font-size: 30px;
+                        font-weight: 600;
+                        line-height: 45px;
+                        text-align: left;
+                        text-underline-position: from-font;
+                        text-decoration-skip-ink: none;
+                        color: black;        
+                    }
+
+
+
+
+
+
+                    
+    
