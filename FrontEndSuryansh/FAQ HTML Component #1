@@ -1,0 +1,116 @@
+FAQ  HTML of component #1
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Section</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+
+<body>
+
+    <div class="faq-section">
+        <div class="text1">
+
+            Frequently Asked Questions?
+
+        </div>
+        <div class="text2">
+
+            Find answers to common questions that come in your mind related to IPO.
+        </div>
+
+        <div class="faq-item2">
+            <div class="q1">
+
+
+                How to Subscribe to an IPO?
+
+            </div>
+            <div class="a1">
+                <ul>
+                    <li>Step 1: Login to your respective service provider.</li>
+                    <li>Step 2: Click on the IPO button.</li>
+                    <li>Step 3: Select the IPO you want to bid and enter the relevant details.</li>
+                    <li>Step 4: Your subscription will be completed once you make the payment or give permission.
+                    </li>
+                </ul>
+            </div>
+            <div class="logoninus">
+
+            </div>
+        </div>
+
+        <div class="faq-item3">
+            <div class="q2">
+                Should I buy an IPO first day?
+            </div>
+            <div class="iogoplus2"></div>
+        </div>
+
+        <div class="faq-item4">
+            <div class="q3">
+                How do you know if an IPO is good?
+            </div>
+            <div class="logoplus3"></div>
+        </div>
+
+        <div class="faq-item5">
+            <div class="q4">
+                How to check IPO start date?
+            </div>
+            <div class="logoplus4"></div>
+        </div>
+
+        <div class="faq-item6">
+            <div class="q5">
+                What is issue size?
+            </div>
+            <div class="logoplus5"></div>
+        </div>
+
+        <div class="faq-item7">
+            <div class="q6">
+                How many shares in a lot?
+            </div>
+            <div class="logoplus6"></div>
+        </div>
+        
+        <div class="faq-item8">
+            <div class="q7">
+                How is the lot size calculated?
+            </div>
+            <div class="logoplus7"></div>
+        </div>
+  
+
+        <div class="faq-item9">
+            <div class="q8">
+                Who decides the IPO price band?
+            </div>
+            <div class="logoplus8"></div>
+        </div>
+
+
+        <div class="faq-item10">
+            <div class="q9">
+                What is IPO GMP?
+            </div>
+            <div class="logoplus9"></div>
+        </div>
+
+
+        <div class="faq-item11">
+            <div class="q10">
+                How many lots should I apply for IPO?
+            </div>
+            <div class="logoplus10"></div>
+        </div>
+
+</body>
+
+</html>
