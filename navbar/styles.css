@@ -1,0 +1,150 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 125px;
+    width: 1920px;
+    border: 1px;
+    background-color: #fff
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 1px;
+    left: 43px;
+  }
+  
+  .logo-image {
+    width: 132px;
+    height: 118px;
+  }
+  
+  .brand-name {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    color: #1E1E1E;
+    position: absolute;
+    top: 36px;
+    left: 183px;
+    width: 263px;
+    height: 68px;
+  }
+  
+  .menu {
+    display: flex;
+    position: absolute;
+    top: 54px;
+    left: 523px;
+  }
+  
+  .menu-item {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22.5px;
+    color: #9A9A9A;
+    margin-right: 20px;
+  }
+  
+  .product {
+    width: 82px;
+    height: 23px;
+  }
+  
+  .pricing {
+    width: 62px;
+    height: 23px;
+    margin-left: 33px;
+  }
+  
+  .community {
+    width: 95px;
+    height: 23px;
+    margin-left: 40px;
+  }
+  
+  .media {
+    width: 64px;
+    height: 23px;
+    margin-left: 42px;
+  }
+  
+  .support {
+    width: 89px;
+    height: 23px;
+    border: 1px solid transparent;
+    margin-left: 38px;
+  }
+  
+  .auth {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+  }
+  
+  .signin {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22.5px;
+    color: #9A9A9A;
+    margin-right: 15px;
+    width: 52px;
+    height: 23px;
+  }
+  
+  .signup {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22.5px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 15px;
+    cursor: pointer;
+  }
+  .signup-icon {
+    width:25px;
+    height:25px;
+    margin-left: 10px;
+    color:#000000;
+    position:absolute;
+    top:49px;
+    left: 1829px;
+  }
+
+   /* Mobile View */
+   @media (max-width: 768px) {
+    .menu, .auth {
+      display: none;
+    }
+  
+    .navbar {
+      justify-content: start;
+      padding: 0 20px;
+    }
+  
+    .brand-name {
+      font-size: 24px;
+      line-height: 36px;
+      margin-left: 15px;
+    }
+  
+    .logo-image {
+      width: 80px;
+      height: 80px;
+    }
+  }
