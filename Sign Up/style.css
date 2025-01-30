@@ -1,0 +1,221 @@
+body {
+  
+  font-family: 'Inter', sans-serif;
+  /* font-family: Arial, sans-serif; */
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.signup-container {
+  background-color: #fff;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo-image {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.bluestock-title {
+  font-size: 24px;
+  font-weight: 900;
+  color: #333;
+  margin: 0;
+}
+
+.signup-form {
+  margin-top: 10px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.signup-form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-container input {
+  width: calc(100% - 30px);
+}
+
+.toggle-password {
+  position: absolute;
+  top: 40px;
+  right: 19px;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+}
+
+.terms-container {  
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.terms-container input {
+  margin-right: 5px;  
+  
+}
+
+.robot-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Distributes elements properly */
+  border: 1px solid #ccc;
+  margin-left: 15px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  transition: border-color 0.3s;
+  background-color: #FFFFFF;
+  width: 250px; /* Ensure proper width for alignment */
+  height: auto;
+}
+
+.robot-container:focus-within,
+.robot-container:focus {
+  border-color: #000;
+  outline: none;
+}
+
+.robot-container input[type="checkbox"] {
+  margin-right: 10px;
+  margin-top: 15px;
+  accent-color: #28a745; /* Green checkbox */
+  transform: scale(1.2); /* Slightly enlarge checkbox */
+}
+
+.robot-label {
+  font-size: 14px;
+  font-weight: normal;
+  color: #333;
+  white-space: nowrap; /* Prevents text from wrapping */
+  flex-grow: 1; /* Helps keep text aligned properly */
+  margin-top: 14px;
+}
+
+.recaptcha-logo {
+  width: 40px;
+  height: auto;
+  margin-left: 75px; /* Pushes reCAPTCHA logo to the right */
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox-container input {
+  margin-right: 10px;
+}
+ 
+
+.signup-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #6c13f6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signup-button:hover {
+  background-color: #5011c1;
+}
+
+.separator {
+  margin: 15px 0;
+  font-size: 14px;
+  color: #666;
+  
+  
+}
+
+.google-signup {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.google-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color:#E4E7EB;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.google-button:hover {
+  border-color: #888;
+}
+
+.google-icon {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.already-account {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.already-account button {
+  color: #2424fd;
+  text-decoration: none;
+}
+
+.already-account button:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+  .signup-container {
+    width: 90%;
+  }
+}

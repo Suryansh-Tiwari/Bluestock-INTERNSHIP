@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bluestock Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+  <div class="signup-container">
+    <div class="logo">
+      <img src="./Images/logo.png.jpg" alt="Logo" class="logo-image">
+      <h1 class="bluestock-title">BLUESTOCK</h1>
+    </div>
+    <h3>Create an account</h3>
+    <form class="signup-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="hello@bluestock.in" required>
+
+      <div class="password-container">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Create a password" required>
+        <span class="toggle-password" role="button" aria-label="Toggle password visibility">👁</span>
+      </div>
+
+      <div class="terms-container">
+        
+        <label for="terms">By continuing, you agree to our <a href="#">terms of service</a>.</label>
+      </div>
+      <div class="robot-container" tabindex="0">
+        <input type="checkbox" id="robot-check">
+        <label for="robot-check" class="robot-label">I'm not a robot</label>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/320px-RecaptchaLogo.svg.png" 
+             alt="reCAPTCHA logo" class="recaptcha-logo">
+    </div>
+    
+      <button type="submit" class="signup-button">Sign Up</button>
+
+      <div class="separator">or sign up with</div>
+
+      <div class="google-signup">
+        <button type="button" class="google-button">
+          <img src="./Images/images.png" alt="Google G" class="google-icon">
+          Continue with Google
+        </button>
+      </div>
+
+      <p class="already-account">Already have an account?         
+        <!-- Button to trigger redirection -->
+        <button onclick="goToSignIn()">Sign in here</button>
+        
+        
+        </p>
+    </form>
+  </div>
+</body>
+<script src="script.js">
+  
+</script>
+</html>
